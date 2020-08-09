@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+    </style> 
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FabulousDesign</title>
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="list">
+            <a href="#/" class="scrollers scrollTo" onclick="scrollToChosenElement('title')">Top</a>
+            <a href="#/" class="scrollers scrollTo" onclick="scrollToChosenElement('products')">Products</a>
+            <a href="#/" class="scrollers scrollTo" onclick="scrollToChosenElement('products')">Products</a>
+        </div>
+    </div>
+
+
+    <nav>
+        <div class="logo">
+
+        </div>
+        <div class="links">
+            <a href="#/" class="navbtn">Me</a>
+            <a href="#/" class="navbtn">About</a>
+            <a href="#/" class="navbtn">Home</a>
+            <a href="#/" class="navbtn mobilebtn scrollers" onclick="scrollToChosenElement('title')">Top</a>
+            <a href="#/" class="navbtn mobilebtn scrollers" onclick="scrollToChosenElement('products')">Products</a>
+            <a href="#/" class="navbtn mobilebtn scrollers" onclick="scrollToChosenElement('products')">Products</a>
+            
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="title">
+            <img src="/images/title.png" alt="" id="titleImg" class="imgAnimation">
+            <h1>
+                FabDesign
+            </h1>
+        </div>
+    </main>
+
+    <div class="products">
+        <div class="flexOfProducts">
+            <div class="product1 fadein"></div>
+            <div class="product1 fadein"></div>
+            <div class="product1 fadein"></div>
+            <div class="product1 fadein"></div>
+            <div class="product1 fadein"></div>
+            <div class="product1 fadein"></div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
