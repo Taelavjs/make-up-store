@@ -31,7 +31,7 @@ body {
     padding: 0;
     font-size: 16px;
     background-color: var(--pink);
-    background-image: url(/images/Logo.png);
+    background-image: url(images/Logo.png);
     background-position: center;
     background-size: 70vw 60vh;
     background-attachment: fixed;
@@ -127,7 +127,7 @@ nav{
 }
 
 .logo {
-    background-image: url(/images/Logo.png);
+    background-image: url(images/Logo.png);
     background-position: center;
     background-size: cover;
     height: 7ch;
@@ -163,7 +163,7 @@ main {
     align-items: center;
     height: 80vh;
     width: 100vw;
-    background-image: url(/images/store.jpg);
+    background-image: url(images/store.jpg);
     background-color: rgba(44, 32, 32, 0.6);
     background-blend-mode: multiply;
     background-position: center;
@@ -213,7 +213,7 @@ main {
 }
 
 .product1 {
-    background-image: url(/images/title.png);
+    background-image: url(images/title.png);
     height: 30%;
     width: 20%;
     min-height: 15ch;
