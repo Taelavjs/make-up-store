@@ -230,6 +230,15 @@ main {
     filter: brightness(120%);
 }
 
+.footer {
+    background-color: var(--secondary);
+    height: 6ch;
+    font-size: 1em;
+    text-align: center;
+    color : whitesmoke;
+    font-family: 'Dancing Script';
+}
+
 
 
 /* Animations */
